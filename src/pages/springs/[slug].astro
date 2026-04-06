@@ -18,6 +18,11 @@ const d = spring.data;
 const crowdLabel = { low: 'Usually quiet', medium: 'Can get busy', high: 'Often crowded' }[d.crowd_level];
 const crowdColor = { low: 'text-green-700 bg-green-50', medium: 'text-yellow-700 bg-yellow-50', high: 'text-red-700 bg-red-50' }[d.crowd_level];
 const stars = '★'.repeat(Math.round(d.rating)) + '☆'.repeat(5 - Math.round(d.rating));
+
+// Google Maps links — no API key needed
+const mapsQuery = encodeURIComponent(`${d.title}, ${d.town}, Colorado`);
+const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`;
+const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${mapsQuery}`;
 ---
 
 <BaseLayout title={`${d.title}: Honest Review (${new Date().getFullYear()})`} description={d.description}>
@@ -85,6 +90,34 @@ const stars = '★'.repeat(Math.round(d.rating)) + '☆'.repeat(5 - Math.round(d
                 prose-a:text-blue-700 prose-a:no-underline hover:prose-a:underline
                 prose-strong:text-stone-900">
       <Content />
+    </div>
+
+    <!-- Getting there / map -->
+    <div class="bg-stone-100 rounded-2xl p-6 my-8">
+      <h2 class="font-bold text-stone-900 text-lg mb-1">Getting There</h2>
+      <p class="text-sm text-stone-500 mb-4">
+        {d.title} is located in {d.town}, Colorado — {d.drive_time_label}.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a href={directionsUrl}
+           target="_blank"
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 bg-blue-700 text-white text-sm font-semibold px-4 py-2.5 rounded-xl hover:bg-blue-800 transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+          Get Directions
+        </a>
+        <a href={googleMapsUrl}
+           target="_blank"
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 bg-white border border-stone-300 text-stone-700 text-sm font-semibold px-4 py-2.5 rounded-xl hover:bg-stone-50 transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+          </svg>
+          View on Google Maps
+        </a>
+      </div>
     </div>
 
     <!-- Hotel affiliate block -->
