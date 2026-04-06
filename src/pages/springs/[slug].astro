@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AffiliateBlock from '../../components/AffiliateBlock.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const springs = await getCollection('springs');
+  return springs.map(spring => ({
+    params: { slug: spring.id },
+    props: { spring },
+  }));
+}
+
+const { spring } = Astro.props;
+const { Content } = await render(spring);
+const d = spring.data;
+
+const crowdLabel = { low: 'Usually quiet', medium: 'Can get busy', high: 'Often crowded' }[d.crowd_level];
+const crowdColor = { low: 'text-green-700 bg-green-50', medium: 'text-yellow-700 bg-yellow-50', high: 'text-red-700 bg-red-50' }[d.crowd_level];
+const stars = '★'.repeat(Math.round(d.rating)) + '☆'.repeat(5 - Math.round(d.rating));
+---
+
+<BaseLayout title={`${d.title} — Honest Review (${new Date().getFullYear()})`} description={d.description}>
+
+  <div class="max-w-3xl mx-auto px-4 py-10">
+
+    <!-- Breadcrumb -->
+    <nav class="text-sm text-stone-400 mb-6">
+      <a href="/" class="hover:text-blue-700">Home</a>
+      <span class="mx-2">›</span>
+      <a href="/springs" class="hover:text-blue-700">All Springs</a>
+      <span class="mx-2">›</span>
+      <span class="text-stone-600">{d.title}</span>
+    </nav>
+
+    <!-- Header -->
+    <h1 class="text-3xl md:text-4xl font-bold text-stone-900 mb-3 leading-tight">
+      {d.title}
+    </h1>
+    <p class="text-lg text-stone-500 mb-6">{d.description}</p>
+
+    <!-- Quick facts box -->
+    <div class="bg-stone-100 rounded-2xl p-6 mb-8 grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
+      <div>
+        <div class="text-stone-400 text-xs uppercase tracking-wide mb-1">Drive from Denver</div>
+        <div class="font-semibold text-stone-800">🚗 {d.drive_time_label}</div>
+      </div>
+      <div>
+        <div class="text-stone-400 text-xs uppercase tracking-wide mb-1">Cost</div>
+        <div class="font-semibold text-stone-800">💰 {d.cost}</div>
+      </div>
+      <div>
+        <div class="text-stone-400 text-xs uppercase tracking-wide mb-1">Our Rating</div>
+        <div class="font-semibold text-amber-500">{stars} <span class="text-stone-600">({d.rating}/5)</span></div>
+      </div>
+      <div>
+        <div class="text-stone-400 text-xs uppercase tracking-wide mb-1">Crowds</div>
+        <div class={`font-semibold inline-block px-2 py-0.5 rounded text-xs ${crowdColor}`}>{crowdLabel}</div>
+      </div>
+      <div>
+        <div class="text-stone-400 text-xs uppercase tracking-wide mb-1">Best Season</div>
+        <div class="font-semibold text-stone-800">{d.best_season.join(', ')}</div>
+      </div>
+      <div>
+        <div class="text-stone-400 text-xs uppercase tracking-wide mb-1">Reservations</div>
+        <div class="font-semibold text-stone-800">{d.reservations_required ? '⚠️ Required' : '✓ Not required'}</div>
+      </div>
+      <div>
+        <div class="text-stone-400 text-xs uppercase tracking-wide mb-1">Dogs Allowed</div>
+        <div class="font-semibold text-stone-800">{d.dog_friendly ? '🐕 Yes' : '🚫 No'}</div>
+      </div>
+      <div>
+        <div class="text-stone-400 text-xs uppercase tracking-wide mb-1">Family Friendly</div>
+        <div class="font-semibold text-stone-800">{d.family_friendly ? '👨‍👩‍👧 Yes' : 'Adults preferred'}</div>
+      </div>
+      <div>
+        <div class="text-stone-400 text-xs uppercase tracking-wide mb-1">Last Verified</div>
+        <div class="font-semibold text-stone-800">📍 {d.last_verified}</div>
+      </div>
+    </div>
+
+    <!-- Main review content from Markdown -->
+    <div class="prose prose-stone prose-lg max-w-none
+                prose-headings:font-bold prose-headings:text-stone-900
+                prose-a:text-blue-700 prose-a:no-underline hover:prose-a:underline
+                prose-strong:text-stone-900">
+      <Content />
+    </div>
+
+    <!-- Hotel affiliate block -->
+    <AffiliateBlock
+      town={d.town}
+      hotel_url={d.affiliate_hotel_url}
+      booking_url={d.affiliate_booking_url}
+    />
+
+  </div>
+</BaseLayout>

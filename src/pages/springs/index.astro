@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SpringCard from '../../components/SpringCard.astro';
+import { getCollection } from 'astro:content';
+
+const allSprings = await getCollection('springs');
+const sorted = [...allSprings].sort((a, b) => a.data.drive_time_hours - b.data.drive_time_hours);
+---
+
+<BaseLayout
+  title="All Colorado Hot Springs Near Denver — Directory"
+  description="Complete directory of hot springs near Denver, sorted by drive time. Includes costs, crowd levels, and seasonal conditions for every spring."
+>
+  <div class="max-w-5xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold text-stone-900 mb-2">All Hot Springs Near Denver</h1>
+    <p class="text-stone-500 mb-8">
+      {allSprings.length} springs reviewed · sorted by drive time from Denver
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {sorted.map(spring => (
+        <SpringCard
+          title={spring.data.title}
+          description={spring.data.description}
+          drive_time_label={spring.data.drive_time_label}
+          cost={spring.data.cost}
+          rating={spring.data.rating}
+          type={spring.data.type}
+          slug={spring.id}
+          best_season={spring.data.best_season}
+          crowd_level={spring.data.crowd_level}
+          last_verified={spring.data.last_verified}
+          featured={spring.data.featured}
+        />
+      ))}
+    </div>
+  </div>
+</BaseLayout>

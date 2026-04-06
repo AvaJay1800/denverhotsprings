@@ -1,0 +1,146 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SpringCard from '../components/SpringCard.astro';
+import { getCollection } from 'astro:content';
+
+const allSprings = await getCollection('springs');
+const featured = allSprings.filter(s => s.data.featured);
+const byDrive = [...allSprings].sort((a, b) => a.data.drive_time_hours - b.data.drive_time_hours);
+---
+
+<BaseLayout
+  title="Hot Springs Near Denver — Colorado's Complete Guide (2026)"
+  description="The most honest guide to hot springs near Denver. Every spring reviewed in person with drive times, conditions, costs, and the truth about crowds."
+>
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-b from-blue-900 to-blue-700 text-white py-20 px-4">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 leading-tight">
+        Hot Springs Near Denver
+      </h1>
+      <p class="text-xl text-blue-100 mb-8 leading-relaxed">
+        Colorado has more hot springs than any state in the US.
+        We've soaked in all of them so you know exactly where to go.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="/springs"
+           class="bg-white text-blue-800 font-bold px-6 py-3 rounded-xl hover:bg-blue-50 transition-colors">
+          Browse All Springs →
+        </a>
+        <a href="/guides/beginners-guide"
+           class="border border-white text-white font-semibold px-6 py-3 rounded-xl hover:bg-white/10 transition-colors">
+          First Timer? Start Here
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick filter pills -->
+  <section class="bg-white border-b border-stone-200 py-4 px-4">
+    <div class="max-w-5xl mx-auto flex gap-3 overflow-x-auto text-sm font-medium">
+      <a href="/springs" class="whitespace-nowrap px-3 py-1.5 bg-blue-700 text-white rounded-full">All Springs</a>
+      <a href="/guides/free-hot-springs" class="whitespace-nowrap px-3 py-1.5 bg-stone-100 text-stone-700 rounded-full hover:bg-stone-200">Free / Primitive</a>
+      <a href="/guides/winter-soaking" class="whitespace-nowrap px-3 py-1.5 bg-stone-100 text-stone-700 rounded-full hover:bg-stone-200">Open in Winter</a>
+      <a href="/springs?family=true" class="whitespace-nowrap px-3 py-1.5 bg-stone-100 text-stone-700 rounded-full hover:bg-stone-200">Family Friendly</a>
+      <a href="/springs?dogs=true" class="whitespace-nowrap px-3 py-1.5 bg-stone-100 text-stone-700 rounded-full hover:bg-stone-200">Dog Friendly</a>
+    </div>
+  </section>
+
+  <div class="max-w-5xl mx-auto px-4 py-12">
+
+    <!-- Featured picks -->
+    {featured.length > 0 && (
+      <section class="mb-14">
+        <h2 class="text-2xl font-bold text-stone-900 mb-2">Staff Picks</h2>
+        <p class="text-stone-500 mb-6">Our personal favorites — springs we keep coming back to.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {featured.map(spring => (
+            <SpringCard
+              title={spring.data.title}
+              description={spring.data.description}
+              drive_time_label={spring.data.drive_time_label}
+              cost={spring.data.cost}
+              rating={spring.data.rating}
+              type={spring.data.type}
+              slug={spring.id}
+              best_season={spring.data.best_season}
+              crowd_level={spring.data.crowd_level}
+              last_verified={spring.data.last_verified}
+              featured={true}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Closest first -->
+    {byDrive.length > 0 && (
+      <section class="mb-14">
+        <h2 class="text-2xl font-bold text-stone-900 mb-2">Closest to Denver</h2>
+        <p class="text-stone-500 mb-6">When you need a soak without a big drive.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {byDrive.slice(0, 6).map(spring => (
+            <SpringCard
+              title={spring.data.title}
+              description={spring.data.description}
+              drive_time_label={spring.data.drive_time_label}
+              cost={spring.data.cost}
+              rating={spring.data.rating}
+              type={spring.data.type}
+              slug={spring.id}
+              best_season={spring.data.best_season}
+              crowd_level={spring.data.crowd_level}
+              last_verified={spring.data.last_verified}
+            />
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Why trust us -->
+    <section class="bg-white border border-stone-200 rounded-2xl p-8 mb-14">
+      <h2 class="text-xl font-bold mb-4">Why Trust This Guide?</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-stone-600">
+        <div>
+          <div class="text-2xl mb-2">🧪</div>
+          <h3 class="font-semibold text-stone-900 mb-1">In-Person Verified</h3>
+          <p>Every spring on this site has been visited in person. We note the "last verified" date on every page — no recycled 2019 info.</p>
+        </div>
+        <div>
+          <div class="text-2xl mb-2">😤</div>
+          <h3 class="font-semibold text-stone-900 mb-1">Honest Reviews</h3>
+          <p>If a spring is overcrowded, underwhelming, or not worth the drive, we say so. No affiliate relationship changes that.</p>
+        </div>
+        <div>
+          <div class="text-2xl mb-2">📅</div>
+          <h3 class="font-semibold text-stone-900 mb-1">Seasonal Conditions</h3>
+          <p>Road conditions, crowd levels, and water temperatures change by season. We update them so you're not surprised.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guides teaser -->
+    <section>
+      <h2 class="text-2xl font-bold text-stone-900 mb-2">Planning Guides</h2>
+      <p class="text-stone-500 mb-6">Everything you need to plan the perfect Colorado hot springs trip.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {[
+          { title: "Complete Beginner's Guide to Colorado Hot Springs", href: "/guides/beginners-guide", emoji: "🌊", desc: "Never been? Start here. Everything you need to know before your first soak." },
+          { title: "Free & Primitive Hot Springs in Colorado", href: "/guides/free-hot-springs", emoji: "🆓", desc: "The best soaks that cost nothing — including some locals-only spots." },
+          { title: "Hot Springs Packing List", href: "/guides/packing-list", emoji: "🎒", desc: "The 12 things you'll wish you brought and the 3 things you'll wish you left home." },
+          { title: "Best Hot Springs in Winter", href: "/guides/winter-soaking", emoji: "❄️", desc: "Snow falling while you soak? Yes. Here's where and how to make it happen." },
+        ].map(guide => (
+          <a href={guide.href} class="flex gap-4 bg-white border border-stone-200 rounded-xl p-5 hover:shadow-md transition-shadow">
+            <span class="text-3xl">{guide.emoji}</span>
+            <div>
+              <h3 class="font-bold text-stone-900 mb-1">{guide.title}</h3>
+              <p class="text-sm text-stone-500">{guide.desc}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

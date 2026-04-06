@@ -1,0 +1,95 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+}
+
+const { title, description, image = '/images/og-default.jpg' } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- SEO -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={image} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
+  </head>
+  <body class="bg-stone-50 text-stone-900 font-sans">
+
+    <!-- Nav -->
+    <header class="bg-white border-b border-stone-200 sticky top-0 z-50">
+      <nav class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+        <a href="/" class="font-bold text-lg text-blue-700 hover:text-blue-800">
+          Denver Hot Springs
+        </a>
+        <div class="flex gap-6 text-sm font-medium text-stone-600">
+          <a href="/springs" class="hover:text-blue-700">All Springs</a>
+          <a href="/guides" class="hover:text-blue-700">Guides</a>
+          <a href="/guides/packing-list" class="hover:text-blue-700">Packing List</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page content -->
+    <main>
+      <slot />
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-stone-800 text-stone-300 mt-20">
+      <div class="max-w-5xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-white font-bold mb-3">Denver Hot Springs</h3>
+          <p class="text-sm leading-relaxed">
+            The most honest guide to hot springs in Colorado.
+            Every spring reviewed in person. Every condition verified.
+          </p>
+        </div>
+        <div>
+          <h3 class="text-white font-semibold mb-3 text-sm">Quick Links</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/springs" class="hover:text-white">All Springs Directory</a></li>
+            <li><a href="/guides/beginners-guide" class="hover:text-white">First Timer's Guide</a></li>
+            <li><a href="/guides/free-hot-springs" class="hover:text-white">Free Hot Springs</a></li>
+            <li><a href="/guides/packing-list" class="hover:text-white">What to Pack</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-white font-semibold mb-3 text-sm">Regions</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="/springs?region=front-range" class="hover:text-white">Front Range</a></li>
+            <li><a href="/springs?region=western-slope" class="hover:text-white">Western Slope</a></li>
+            <li><a href="/springs?region=san-juan" class="hover:text-white">San Juan Mountains</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-stone-700 text-center text-xs text-stone-500 py-4">
+        © {new Date().getFullYear()} Denver Hot Springs · Built with love in Colorado
+      </div>
+    </footer>
+
+  </body>
+</html>
