@@ -4,7 +4,7 @@ description: "Sixteen soaking pools on the banks of the Colorado River in Glenwo
 drive_time_hours: 2.5
 drive_time_label: "2.5 hours from Denver"
 type: commercial
-cost: "$32–$38/person"
+cost: "$48–$76/person"
 rating: 4.5
 last_verified: "January 2026"
 town: "Glenwood Springs"
@@ -29,9 +29,11 @@ The only honest critique: it's a designed experience, not a wild one. If you wan
 
 ## The Pools
 
-Sixteen individual soaking pools ranging from 98°F to 108°F, each holding 2–8 people. They're fed by the Yampah mineral spring, which produces odorless, sodium bicarbonate-rich water. No sulfur smell: which some people love and hot spring purists note as a departure from the "real" experience.
+Thirty-two pools total after a major February 2026 expansion. Select Access (all ages) includes 19 pools including the family pool and jetted spa. Premier/WorldSprings (21+) opens all 32 pools. They're fed by the Yampah mineral spring, which produces odorless, sodium bicarbonate-rich water. No sulfur smell: which some people love and hot spring purists note as a departure from the "real" experience.
 
-The pools closer to the river run slightly cooler and offer the best views. The upper pools run hotter. There's also a freshwater pool for laps and cooling down.
+The pools closer to the river run slightly cooler and offer the best views. The upper pools run hotter. The **Sauna Summit**, opened February 2026, adds five sauna types, three plunge pools, a salt therapy room, and steam rooms — the most diverse public sauna collection in the US.
+
+Pool temps: family pool ~95°F, jetted spa 100°F+, mineral soaking pools 105°F–108°F.
 
 **Reservation note:** Iron Mountain strictly enforces timed entry. Book online before you go: they sell out on weekends two to three weeks in advance in winter.
 

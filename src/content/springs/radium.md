@@ -1,8 +1,8 @@
 ---
 title: "Radium Hot Springs"
 description: "A free, primitive hot spring on the banks of the Colorado River: 90 minutes from Denver and almost nobody knows about it. No facilities, no fee, no crowds."
-drive_time_hours: 1.5
-drive_time_label: "1.5 hours from Denver"
+drive_time_hours: 2
+drive_time_label: "2 hours from Denver"
 type: primitive
 cost: "Free"
 rating: 3.9
@@ -36,13 +36,14 @@ The Colorado River is right there. Cold plunge available.
 
 ## Getting There
 
-Take I-70 west to exit 205 (Wolcott/State Bridge), then CO-131 north to Toponas, then CO-134 west toward Radium. Turn south on County Road 1 (Trough Road) and follow it to the BLM access near the river. Total from Denver: about 90 miles.
+Take I-70 west toward Wolcott/Bond, then north on CO-131 through Yampa toward Kremmling. From the Radium Recreation Area, drive 1.5 miles northeast on Trough Road (County Road 1) to **Warm Springs Road**. Park at the trailhead at the end of Warm Springs Road and hike in on foot.
 
-**The honest navigation note:** Radium Hot Springs is not well-signed. Search "Radium Hot Springs Colorado BLM" for current coordinates: the specific access point can shift. The most reliable directions are from recent Reddit posts in r/Colorado or the Mountain Project community.
+**Important:** The former access route through the Mugrage Campground is permanently closed as of 2022. Many older guides and GPS routes still show this path — ignore them.
 
-- Distance: ~90 miles
-- Road: Paved all the way (Trough Road is gravel for part of the route)
-- Parking: Informal pullout, fits 3–4 cars
+- Distance: ~130 miles from Denver
+- Road: Paved to Trough Road, then gravel; Warm Springs Road can be impassable in winter
+- Parking: Small trailhead lot at end of Warm Springs Road; overflow along County Road 1
+- Hike in: Short walk on foot from the trailhead (Warm Springs Trail or Ol' Warm Springs Trail)
 
 ## Seasonal Conditions
 

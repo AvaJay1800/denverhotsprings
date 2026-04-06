@@ -4,7 +4,7 @@ description: "A small, intimate hot spring retreat near Buena Vista: clothing-op
 drive_time_hours: 2
 drive_time_label: "2 hours from Denver"
 type: clothing-optional
-cost: "$22–$28/person"
+cost: "$30–$35/person"
 rating: 4.3
 last_verified: "October 2025"
 town: "Buena Vista"

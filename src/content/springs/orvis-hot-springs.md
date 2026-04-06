@@ -4,7 +4,7 @@ description: "A quirky, beloved clothing-optional hot spring near Ridgway with C
 drive_time_hours: 5
 drive_time_label: "5 hours from Denver"
 type: clothing-optional
-cost: "$15–$17/person"
+cost: "$28/person"
 rating: 4.4
 last_verified: "September 2025"
 town: "Ridgway"

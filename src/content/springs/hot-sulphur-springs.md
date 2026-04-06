@@ -4,7 +4,7 @@ description: "A historic Colorado mineral springs resort 90 minutes from Denver:
 drive_time_hours: 1.5
 drive_time_label: "1.5 hours from Denver"
 type: commercial
-cost: "$22–$28/person"
+cost: "$30/person"
 rating: 4.2
 last_verified: "March 2026"
 town: "Hot Sulphur Springs"

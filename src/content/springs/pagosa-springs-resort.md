@@ -1,10 +1,10 @@
 ---
 title: "The Springs Resort & Spa (Pagosa Springs)"
-description: "Twenty-five pools fed by the world's deepest hot spring, with San Juan Mountain views and genuinely therapeutic mineral water. The furthest drive on this list: and the hardest to argue against."
-drive_time_hours: 3.75
-drive_time_label: "3.75 hours from Denver"
+description: "Fifty-two pools fed by the world's deepest hot spring, with San Juan Mountain views and genuinely therapeutic mineral water. Completely transformed in 2025. The furthest drive on this list and the hardest to argue against."
+drive_time_hours: 5
+drive_time_label: "5 hours from Denver"
 type: resort
-cost: "$40–$60/person"
+cost: "$74–$119/person"
 rating: 4.6
 last_verified: "November 2025"
 town: "Pagosa Springs"
@@ -23,17 +23,19 @@ affiliate_booking_url: "https://www.airbnb.com/s/Pagosa-Springs--Colorado/homes"
 
 Pagosa Springs sits on the Bingham Pool, the world's deepest known hot spring: 1,002 feet deep, with water reaching 145°F at the surface before being cooled for soaking. That's not a marketing fact; it's a geological superlative that means the water is genuinely mineral-dense and therapeutically different from most springs.
 
-The Springs Resort runs 25 pools of varying temperatures along the San Juan River, with the San Juan Mountains as the backdrop. It's the furthest drive on this list (3.75 hours) and the most expensive ($40–$60/person). It earns both.
+The Springs Resort completed a massive expansion in April 2025, growing from 25 to **52 mineral pools** along the San Juan River, with the San Juan Mountains as the backdrop. New additions include a panoramic sauna, grotto-style pool, contrast bathing waterfall stations, a cold plunge fed by the river, and a new restaurant (Wild Finch). The property won the USA TODAY 10BEST award for #1 Hot Springs in the USA in 2025. It earns it.
 
-Pagosa itself is one of Colorado's most charming mountain towns: better-preserved than many, with good restaurants and a genuine small-town feel. The drive through Wolf Creek Pass and the San Juan Mountains is among the best in Colorado. This is a weekend trip, not a day trip. Make it count.
+It's the furthest drive on this list (5 hours) and the most expensive ($74/person for the standard day pass). Pagosa itself is one of Colorado's most charming mountain towns. The drive through Wolf Creek Pass and the San Juan Mountains is among the best in Colorado. This is a weekend trip, not a day trip. Make it count.
 
 ## The Pools
 
-Twenty-five distinct pools ranging from 83°F to 114°F. Each pool has a different mineral concentration as you move farther from the source: the pools nearest the Bingham Pool are the most mineral-rich and the hottest.
+Fifty-two pools ranging from 35°F to 112°F. Pool temperatures are posted every 4 hours by staff. Each pool has a different mineral concentration as you move farther from the source: the pools nearest the Bingham Pool are the most mineral-rich and hottest.
 
-The "Lobster Pot" pool, fed directly from the source at around 114°F, is a 30-second-maximum experience for even experienced hot spring visitors. The therapeutic sweet spot is 102–108°F, available across several mid-range pools.
+The "Lobster Pot" pool, fed directly from the source at around 112°F, is a 30-second-maximum experience for even experienced visitors. The therapeutic sweet spot is 102–108°F, available across many mid-range pools.
 
-**Night access:** The resort offers late-night soaking (until 2am). The pools lit up against the San Juan River at midnight are exceptional.
+**Day pass options:** Standard General Admission ($74/adult, 25 original pools) or Wellness Day Pass ($119 weekdays/$159 weekends) which adds 27 additional pools, a robe, locker, mud studio, and halotherapy sauna. Local residents within 60 miles pay $30.
+
+**Night access:** Day visitors must be out by 9:30 PM.
 
 ## Getting There
 

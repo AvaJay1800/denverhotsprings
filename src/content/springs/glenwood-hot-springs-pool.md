@@ -4,7 +4,7 @@ description: "The world's largest hot springs pool: a 405-foot outdoor swimming 
 drive_time_hours: 2.5
 drive_time_label: "2.5 hours from Denver"
 type: commercial
-cost: "$21–$30/person"
+cost: "$38–$58/person"
 rating: 3.8
 last_verified: "December 2025"
 town: "Glenwood Springs"
