@@ -1,6 +1,6 @@
 ---
 title: "Free & Primitive Hot Springs in Colorado"
-description: "The best hot springs in Colorado that cost nothing — including locals-only spots, BLM land soaks, and how to find primitive springs that don't show up on most lists."
+description: "The best hot springs in Colorado that cost nothing: including locals-only spots, BLM land soaks, and how to find primitive springs that don't show up on most lists."
 category: tips
 published_date: "2026-04-01"
 ---
@@ -15,10 +15,10 @@ Here's what's out there, how to find it, and what to expect.
 
 ## Free Hot Springs Near Denver
 
-### Radium Hot Springs — 1.5 Hours
+### Radium Hot Springs: 1.5 Hours
 The closest free soak to Denver. A natural pool on BLM land along the Colorado River near the tiny town of Radium, in the canyon country north of Kremmling. No facilities, no fee, dogs welcome.
 
-The pool is hand-dug from river rocks and maintained communally — whoever arrives adjusts the rocks to get the right temperature mix between the hot spring source and the cold Colorado River. Usually 100–105°F when configured well.
+The pool is hand-dug from river rocks and maintained communally: whoever arrives adjusts the rocks to get the right temperature mix between the hot spring source and the cold Colorado River. Usually 100–105°F when configured well.
 
 **The catch:** Spring runoff (April–June) frequently floods or dramatically cools the pool. Fall and winter are the best seasons.
 
@@ -26,8 +26,8 @@ The pool is hand-dug from river rocks and maintained communally — whoever arri
 
 ---
 
-### Cottonwood Creek Hot Springs — 2.5 Hours
-A series of small primitive pools along Cottonwood Creek near Buena Vista, accessible via a short hike from a BLM trailhead off County Road 306. The pools are built into the creek itself — hot spring water mixes with cold mountain runoff to create naturally regulated temperatures.
+### Cottonwood Creek Hot Springs: 2.5 Hours
+A series of small primitive pools along Cottonwood Creek near Buena Vista, accessible via a short hike from a BLM trailhead off County Road 306. The pools are built into the creek itself: hot spring water mixes with cold mountain runoff to create naturally regulated temperatures.
 
 Free, no facilities, clothing optional by tradition. The hike in is about 15 minutes. One of the more beautiful primitive settings in the Arkansas Valley.
 
@@ -35,14 +35,14 @@ Free, no facilities, clothing optional by tradition. The hike in is about 15 min
 
 ---
 
-### Treasure Falls / South Fork Area — 3 Hours
-A handful of undeveloped springs in the South Fork area near Pagosa Springs that locals know about and almost nobody else does. The water is real and the settings are wild. These require more navigation effort — search recent posts in r/Colorado for current access conditions.
+### Treasure Falls / South Fork Area: 3 Hours
+A handful of undeveloped springs in the South Fork area near Pagosa Springs that locals know about and almost nobody else does. The water is real and the settings are wild. These require more navigation effort: search recent posts in r/Colorado for current access conditions.
 
 ---
 
 ## How Primitive Hot Springs Work
 
-Primitive springs are on public land — usually BLM (Bureau of Land Management) or National Forest. Nobody owns them, nobody maintains them commercially, and they're free to visit.
+Primitive springs are on public land: usually BLM (Bureau of Land Management) or National Forest. Nobody owns them, nobody maintains them commercially, and they're free to visit.
 
 What that means practically:
 
@@ -64,7 +64,7 @@ What that means practically:
 
 **Wear water shoes.** Primitive pool floors are rocky and uneven. Flip flops work but water shoes are more secure.
 
-**Bring a small trowel and bag.** If the pool needs adjustment — rocks shifted, debris cleared — having tools makes it easier and earns you karma with future visitors.
+**Bring a small trowel and bag.** If the pool needs adjustment: rocks shifted, debris cleared: having tools makes it easier and earns you karma with future visitors.
 
 ---
 
@@ -81,7 +81,7 @@ Sometimes, yes. Here's the honest comparison:
 | Experience | Wild, authentic | Comfortable, easy |
 | Best for | Adventure seekers, locals | First-timers, families |
 
-The best Colorado hot spring trip often combines both — a commercial spring for the reliable soak, a primitive spring for the adventure. [Radium](/springs/radium) to [Mt. Princeton](/springs/mt-princeton) in the same weekend is a perfect example.
+The best Colorado hot spring trip often combines both: a commercial spring for the reliable soak, a primitive spring for the adventure. [Radium](/springs/radium) to [Mt. Princeton](/springs/mt-princeton) in the same weekend is a perfect example.
 
 ---
 
@@ -89,9 +89,9 @@ The best Colorado hot spring trip often combines both — a commercial spring fo
 
 Colorado has more undocumented hot springs than documented ones. The best ways to find them:
 
-1. **r/Colorado and r/ColoradoHiking** — locals post current conditions and occasional discoveries
-2. **The BLM Colorado website** — maps of BLM land with known spring locations
-3. **Hike to thermal areas** — anywhere you see steam rising from ground near a creek in the mountains, investigate
-4. **Talk to locals** — gas station attendants and rangers in mountain towns often know springs that never make it onto any list
+1. **r/Colorado and r/ColoradoHiking**: locals post current conditions and occasional discoveries
+2. **The BLM Colorado website**: maps of BLM land with known spring locations
+3. **Hike to thermal areas**: anywhere you see steam rising from ground near a creek in the mountains, investigate
+4. **Talk to locals**: gas station attendants and rangers in mountain towns often know springs that never make it onto any list
 
-When you find one worth sharing, [let us know](/contact) — we'll add it.
+When you find one worth sharing, [let us know](/contact): we'll add it.

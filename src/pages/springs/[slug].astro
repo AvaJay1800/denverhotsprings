@@ -20,7 +20,7 @@ const crowdColor = { low: 'text-green-700 bg-green-50', medium: 'text-yellow-700
 const stars = '★'.repeat(Math.round(d.rating)) + '☆'.repeat(5 - Math.round(d.rating));
 ---
 
-<BaseLayout title={`${d.title} — Honest Review (${new Date().getFullYear()})`} description={d.description}>
+<BaseLayout title={`${d.title}: Honest Review (${new Date().getFullYear()})`} description={d.description}>
 
   <div class="max-w-3xl mx-auto px-4 py-10">
 

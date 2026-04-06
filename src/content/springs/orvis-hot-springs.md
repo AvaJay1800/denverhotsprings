@@ -21,9 +21,9 @@ affiliate_booking_url: "https://www.airbnb.com/s/Ridgway--Colorado/homes"
 
 ## The Honest Take
 
-Orvis Hot Springs shouldn't make this list on drive time alone — 5 hours from Denver is a commitment. It makes the list because it's legitimately one of the best hot spring experiences in Colorado, and because Ridgway and the surrounding San Juan Mountains are worth the drive on their own.
+Orvis Hot Springs shouldn't make this list on drive time alone: 5 hours from Denver is a commitment. It makes the list because it's legitimately one of the best hot spring experiences in Colorado, and because Ridgway and the surrounding San Juan Mountains are worth the drive on their own.
 
-Orvis is small: eight pools, including indoor tubs and outdoor soaking ponds, all clothing-optional, all fed by geothermal water that ranges from 99°F to 112°F. It's family-owned and has operated since the late 1970s. The atmosphere is eccentric and warm in a way that bigger commercial springs aren't — the kind of place where you end up having a two-hour conversation with strangers who become temporary friends.
+Orvis is small: eight pools, including indoor tubs and outdoor soaking ponds, all clothing-optional, all fed by geothermal water that ranges from 99°F to 112°F. It's family-owned and has operated since the late 1970s. The atmosphere is eccentric and warm in a way that bigger commercial springs aren't: the kind of place where you end up having a two-hour conversation with strangers who become temporary friends.
 
 The outdoor ponds look out at the Cimarron Range. In fall, those mountains are gold.
 
@@ -34,7 +34,7 @@ The outdoor ponds look out at the Cimarron Range. In fall, those mountains are g
 - **Hot tub alcoves:** Several individual tubs built into the hillside, temperatures up to 112°F.
 - **Indoor soaking room:** For cold/rainy weather. Single large tub, very hot (~108°F).
 
-The water is mineral-rich with a mild odor — not unpleasant, but present. The natural setting (grass around the ponds, mountains visible, no concrete) makes it feel nothing like a pool.
+The water is mineral-rich with a mild odor: not unpleasant, but present. The natural setting (grass around the ponds, mountains visible, no concrete) makes it feel nothing like a pool.
 
 ## Getting There
 
@@ -61,9 +61,9 @@ Orvis is almost always unhurried. Even on a fall weekend the total crowd rarely 
 
 ## What to Bring
 
-- **Cash** — they strongly prefer it
-- **Towel** — required, no rentals
-- **Patience for the drive** — and a good podcast queue
+- **Cash**: they strongly prefer it
+- **Towel**: required, no rentals
+- **Patience for the drive**: and a good podcast queue
 
 ## Is It Worth the 5-Hour Drive?
 
@@ -71,4 +71,4 @@ Only if you're building a San Juan Mountain trip around it. Orvis alone doesn't 
 
 **Best for:** San Juan Mountain road trip enthusiasts, people who want the most authentic small-operation hot spring experience, clothing-optional veterans.
 
-**Skip it if:** You're only coming from Denver and back — the drive-to-experience ratio doesn't work as a standalone day trip.
+**Skip it if:** You're only coming from Denver and back: the drive-to-experience ratio doesn't work as a standalone day trip.

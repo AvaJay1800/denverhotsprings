@@ -1,13 +1,13 @@
 ---
 title: "Complete Beginner's Guide to Colorado Hot Springs"
-description: "Never been to a hot spring? Start here. Everything you need to know before your first soak — what to expect, what to bring, and which spring to visit first."
+description: "Never been to a hot spring? Start here. Everything you need to know before your first soak: what to expect, what to bring, and which spring to visit first."
 category: beginner
 published_date: "2026-04-01"
 ---
 
 ## First Time? You're Going to Love This.
 
-Colorado hot springs are one of the state's best-kept secrets — except they're not really a secret anymore. Over 150 natural hot springs dot the state, ranging from free primitive pools on BLM land to full resort experiences with 25 pools and mountain views.
+Colorado hot springs are one of the state's best-kept secrets: except they're not really a secret anymore. Over 150 natural hot springs dot the state, ranging from free primitive pools on BLM land to full resort experiences with 25 pools and mountain views.
 
 If you've never been, here's the honest beginner guide: what it's actually like, how to prepare, and which spring to visit first.
 
@@ -15,7 +15,7 @@ If you've never been, here's the honest beginner guide: what it's actually like,
 
 ## What Is a Hot Spring, Actually?
 
-A hot spring is groundwater that's been heated by geothermal activity underground and rises to the surface naturally. In Colorado, that water picks up minerals along the way — sodium, calcium, magnesium, and sometimes sulfur — which is why hot spring water feels different from a regular pool and why some springs have that distinctive egg smell.
+A hot spring is groundwater that's been heated by geothermal activity underground and rises to the surface naturally. In Colorado, that water picks up minerals along the way: sodium, calcium, magnesium, and sometimes sulfur: which is why hot spring water feels different from a regular pool and why some springs have that distinctive egg smell.
 
 The water temperature varies by spring. Most soaking pools are kept between 98°F and 108°F. Some springs have hotter source water (Valley View hits 120°F at the source, Pagosa's Bingham Pool reaches 145°F) that gets cooled or diluted before soaking.
 
@@ -27,13 +27,13 @@ The water temperature varies by spring. Most soaking pools are kept between 98°
 
 **At a commercial spring** (Iron Mountain, Strawberry Park, Mt. Princeton):
 - You pay at the gate and get a wristband
-- Changing rooms with lockers — bring a lock
-- Multiple pools at different temperatures — try them all
+- Changing rooms with lockers: bring a lock
+- Multiple pools at different temperatures: try them all
 - No glass containers, usually no alcohol
-- Towels sometimes available to rent — bring your own to be safe
+- Towels sometimes available to rent: bring your own to be safe
 
 **At a primitive spring** (Radium):
-- No facilities — no bathrooms, no changing rooms
+- No facilities: no bathrooms, no changing rooms
 - You change in or next to your car
 - The pool is natural and maintained by whoever shows up
 - Pack everything in, pack everything out
@@ -63,16 +63,16 @@ Colorado hot springs get genuinely crowded on weekends, especially in winter. A 
 
 **Essentials:**
 - Swimsuit (required at all commercial springs)
-- Towel — a big one, and a second one for your hair
-- Water bottle — bring more water than you think you need
-- Flip flops or water shoes — pool decks and rocky primitive springs are slippery
-- Dry clothes and layers for after — you'll be warm when you leave but the car ride home gets cold
+- Towel: a big one, and a second one for your hair
+- Water bottle: bring more water than you think you need
+- Flip flops or water shoes: pool decks and rocky primitive springs are slippery
+- Dry clothes and layers for after: you'll be warm when you leave but the car ride home gets cold
 
 **Nice to have:**
 - Small dry bag for your phone and keys
 - Hair tie if you have long hair
 - Sunscreen for daytime summer visits
-- Changing robe — the single best upgrade for Colorado hot spring visits. Walking from car to pool in a robe instead of a wet towel is a game changer in winter.
+- Changing robe: the single best upgrade for Colorado hot spring visits. Walking from car to pool in a robe instead of a wet towel is a game changer in winter.
 
 **Leave at home:**
 - Glass bottles (prohibited at most commercial springs)
@@ -83,21 +83,21 @@ Colorado hot springs get genuinely crowded on weekends, especially in winter. A 
 
 ## Which Spring Should You Visit First?
 
-**If you want easy and close:** [Hot Sulphur Springs](/springs/hot-sulphur-springs) — 1.5 hours, low crowds, no drama, historically authentic.
+**If you want easy and close:** [Hot Sulphur Springs](/springs/hot-sulphur-springs): 1.5 hours, low crowds, no drama, historically authentic.
 
-**If you want the classic Colorado experience:** [Strawberry Park](/springs/strawberry-park) — the one everyone pictures when they think Colorado hot springs. Go on a weekday.
+**If you want the classic Colorado experience:** [Strawberry Park](/springs/strawberry-park): the one everyone pictures when they think Colorado hot springs. Go on a weekday.
 
-**If you want beautiful and modern:** [Iron Mountain Hot Springs](/springs/iron-mountain) — Colorado River views, clean facilities, reservation system keeps it manageable. Book ahead.
+**If you want beautiful and modern:** [Iron Mountain Hot Springs](/springs/iron-mountain): Colorado River views, clean facilities, reservation system keeps it manageable. Book ahead.
 
-**If you want free:** [Radium Hot Springs](/springs/radium) — 1.5 hours from Denver, primitive, free, dogs welcome.
+**If you want free:** [Radium Hot Springs](/springs/radium): 1.5 hours from Denver, primitive, free, dogs welcome.
 
-**If you want the best in the state:** [Valley View Hot Springs](/springs/valley-view) — 3.5 hours, clothing optional, genuinely spectacular. Save this one for after you've done a few others.
+**If you want the best in the state:** [Valley View Hot Springs](/springs/valley-view): 3.5 hours, clothing optional, genuinely spectacular. Save this one for after you've done a few others.
 
 ---
 
-## Clothing Optional — What's the Deal?
+## Clothing Optional: What's the Deal?
 
-Several Colorado hot springs are clothing optional: Valley View, Cottonwood, Orvis, and Strawberry Park after dark. Clothing optional means exactly that — optional. Plenty of people wear suits.
+Several Colorado hot springs are clothing optional: Valley View, Cottonwood, Orvis, and Strawberry Park after dark. Clothing optional means exactly that: optional. Plenty of people wear suits.
 
 The atmosphere at clothing-optional springs is almost universally respectful and non-voyeuristic. These are conservation spaces and soaking retreats, not scenes. Within about 20 minutes it reads as completely normal.
 
@@ -107,6 +107,6 @@ If it's not for you, Hot Sulphur Springs, Iron Mountain, Glenwood Pool, Mt. Prin
 
 ## One Last Thing
 
-Colorado hot springs are genuinely better in winter. Sitting in 104°F water while snow falls on your shoulders, watching steam rise into pine trees — that's the experience people come back for year after year. Don't wait for summer. Go in January. Go in February. The cold air makes it.
+Colorado hot springs are genuinely better in winter. Sitting in 104°F water while snow falls on your shoulders, watching steam rise into pine trees: that's the experience people come back for year after year. Don't wait for summer. Go in January. Go in February. The cold air makes it.
 
 Browse all springs by drive time and find your first one: [All Springs →](/springs)
