@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const guides = await getCollection('guides');
+
+const categoryEmoji = {
+  beginner: '🌊',
+  seasonal: '❄️',
+  gear: '🎒',
+  itinerary: '🗺️',
+  tips: '💡',
+};
+---
+
+<BaseLayout
+  title="Colorado Hot Springs Guides — Planning, Tips & Gear"
+  description="Everything you need to plan a Colorado hot springs trip. Beginner guides, seasonal conditions, packing lists, and weekend itineraries."
+>
+  <div class="max-w-5xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold text-stone-900 mb-2">Planning Guides</h1>
+    <p class="text-stone-500 mb-10">Everything you need before your first — or fiftieth — Colorado soak.</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      {guides.map(guide => (
+        <a href={`/guides/${guide.id}`}
+           class="flex gap-4 bg-white border border-stone-200 rounded-xl p-6 hover:shadow-md transition-shadow">
+          <span class="text-4xl">{categoryEmoji[guide.data.category] ?? '📖'}</span>
+          <div>
+            <h2 class="font-bold text-stone-900 text-lg mb-1">{guide.data.title}</h2>
+            <p class="text-sm text-stone-500">{guide.data.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>
