@@ -15,6 +15,7 @@ const springs = defineCollection({
     town: z.string(),
     region: z.string(),
     hero_image: z.string().optional(),
+    photo_credit: z.string().optional(),
     best_season: z.array(z.string()),
     crowd_level: z.enum(['low', 'medium', 'high']),
     family_friendly: z.boolean(),

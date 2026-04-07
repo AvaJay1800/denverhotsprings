@@ -84,6 +84,13 @@ const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${maps
       </div>
     </div>
 
+    <!-- Photo credit -->
+    {d.hero_image && d.photo_credit && (
+      <p class="text-xs text-stone-400 -mt-6 mb-8">
+        Hero photo: {d.photo_credit}
+      </p>
+    )}
+
     <!-- Main review content from Markdown -->
     <div class="prose prose-stone prose-lg max-w-none
                 prose-headings:font-bold prose-headings:text-stone-900

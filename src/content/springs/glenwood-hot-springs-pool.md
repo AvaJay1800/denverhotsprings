@@ -15,6 +15,8 @@ family_friendly: true
 dog_friendly: false
 reservations_required: false
 featured: false
+hero_image: "/images/springs/glenwood_springs.jpg"
+photo_credit: "Ian Liberry"
 affiliate_hotel_url: "https://www.booking.com/searchresults.html?ss=Glenwood+Springs%2C+Colorado"
 affiliate_booking_url: "https://www.airbnb.com/s/Glenwood-Springs--Colorado/homes"
 ---

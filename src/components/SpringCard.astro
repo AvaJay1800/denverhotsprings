@@ -11,13 +11,14 @@ interface Props {
   crowd_level: string;
   last_verified: string;
   hero_image?: string;
+  photo_credit?: string;
   featured?: boolean;
 }
 
 const {
   title, description, drive_time_label, cost, rating,
   type, slug, best_season, crowd_level, last_verified,
-  hero_image, featured = false
+  hero_image, photo_credit, featured = false
 } = Astro.props;
 
 const crowdColor = {
@@ -73,6 +74,12 @@ const stars = '★'.repeat(Math.round(rating)) + '☆'.repeat(5 - Math.round(rat
     {featured && (
       <div class="absolute top-3 left-3 bg-blue-600 text-white text-xs font-semibold px-2 py-1 rounded-full">
         Staff Pick
+      </div>
+    )}
+
+    {hero_image && photo_credit && (
+      <div class="absolute bottom-2 right-2 text-white/60 text-[10px]">
+        Photo: {photo_credit}
       </div>
     )}
   </div>
