@@ -16,7 +16,6 @@ dog_friendly: false
 reservations_required: false
 featured: false
 hero_image: "/images/springs/Ouray_Hot_Springs.jpg"
-photo_credit: "Ian Liberry"
 affiliate_hotel_url: "https://www.booking.com/searchresults.html?ss=Ridgway%2C+Colorado"
 affiliate_booking_url: "https://www.airbnb.com/s/Ridgway--Colorado/homes"
 ---
